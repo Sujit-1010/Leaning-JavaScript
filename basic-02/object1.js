@@ -1,4 +1,5 @@
-// singleton
+// singleton -- when we create object using constructor 
+    
 // Object.create
 
 // object literals
