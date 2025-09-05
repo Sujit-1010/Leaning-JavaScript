@@ -56,18 +56,24 @@ users[1].email
 
 //+++++++++++++++++++++++++++++++++++++++++++
 
+//Destructuring of object
+
 const course = {
     coursename: "js in hindi",
     price: "999",
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+// course.courseInstructor --to much time taking 
 
-const {courseInstructor: instructor} = course
+//const {courseInstructor} = course 
+const {courseInstructor: instructor} = course // our own name
+
 
 // console.log(courseInstructor);
 console.log(instructor);
+
+// API in JSON file 
 
 // {
 //     "name": "hitesh",
