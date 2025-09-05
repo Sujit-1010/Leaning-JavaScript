@@ -40,6 +40,12 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
+// ++++++++++++++++++ Lec -2 ++++++++++++++++++++++++++++++
+
+// when we dont know how manyh parameter we need 
+
+// ... this operator is called both rest and spread depend onn where u are using 
+
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
