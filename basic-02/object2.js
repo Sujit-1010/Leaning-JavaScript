@@ -23,7 +23,7 @@ const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
-// const obj3 = { obj1, obj2 }
+// const obj3 = { obj1, obj2 }--obj in obj
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 const obj3 = {...obj1, ...obj2} //we use this to combine object
@@ -50,7 +50,7 @@ users[1].email
 
 // console.log(Object.keys(tinderUser)); --output datatype is array 
 // console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));key and value in array
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
@@ -67,11 +67,14 @@ const course = {
 // course.courseInstructor --to much time taking 
 
 //const {courseInstructor} = course 
-const {courseInstructor: instructor} = course // our own name
+const {courseInstructor: instructor} = course // our own name ----Destructuring of object
 
 
 // console.log(courseInstructor);
 console.log(instructor);
+
+
+
 
 // API in JSON file 
 

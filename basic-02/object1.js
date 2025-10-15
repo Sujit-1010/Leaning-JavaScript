@@ -1,6 +1,6 @@
 // singleton -- when we create object using constructor 
     
-// Object.create
+// Object.create--constructor method
 
 // object literals
 
@@ -9,8 +9,8 @@ const mySym = Symbol("key1")
 
 const JsUser = {
     name: "Hitesh",
-    "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
+    "full_name": "Hitesh Choudhary",
+    [mySym]: "mykey1", // for symbol we have to declare key in []
     age: 18,
     location: "Jaipur",
     email: "hitesh@google.com",
@@ -20,7 +20,8 @@ const JsUser = {
 
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
-// console.log(JsUser["full name"])
+// console.log(JsUser.full_name)-- cant access bevause key is in string so we can only access it by []
+// console.log(JsUser["full name"])--right way
 // console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"

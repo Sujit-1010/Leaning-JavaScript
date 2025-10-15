@@ -13,7 +13,7 @@ let valueInNumber = Number(score)
 // "33abc" => NaN
 //  true => 1; false => 0
 //  null=0
-//  undefined = Nan
+//  undefined = NaN
 
 let isLoggedIn = "hitesh"
 
@@ -41,7 +41,7 @@ let negValue = -value
 // console.log(2*2);
 // console.log(2**3);
 // console.log(2/3);
-// console.log(2%3);
+// console.log(2%3);--% used in cryptography    
 
 let str1 = "hello"
 let str2 = " hitesh"

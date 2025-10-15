@@ -3,6 +3,7 @@
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
+//JS IS DYANAMICALLY TYPED LANGUAGE
 const score = 100
 const scoreValue = 100.3
 
@@ -13,7 +14,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+console.log(id === anotherId); //FALSE
 
 // const bigNumber = 3456543576654356754n
 /// n represnt bigInt

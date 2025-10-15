@@ -1,15 +1,15 @@
 const name = "hitesh"
 const repoCount = 50
 
-// console.log(name + repoCount + " Value");
+// console.log(name + repoCount + " Value"); //hitesh50 Value
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 //string interpolation
 
 const gameName = new String('hitesh-hc-com')
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+// console.log(gameName[0]); --h
+// console.log(gameName.__proto__);---{}
 
 
 // console.log(gameName.length);
@@ -17,11 +17,11 @@ const gameName = new String('hitesh-hc-com')
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(0, 4) //cannot give negative indexing like slice
+const newString = gameName.substring(0, 4) //cannot give negative indexing like slice ---hite
 console.log(newString);
 
 const anotherString = gameName.slice(-8, 4)
-console.log(anotherString);
+console.log(anotherString);--ite
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
@@ -33,4 +33,4 @@ console.log(url.replace('%20', '-'))
 
 console.log(url.includes('sundar')) 
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-'));//--return array

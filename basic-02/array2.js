@@ -3,10 +3,10 @@ const dc_heros = ["superman", "flash", "batman"]
 
 // marvel_heros.push(dc_heros)
 
-// console.log(marvel_heros);
+// console.log(marvel_heros);//array in array
 // console.log(marvel_heros[3][1]);
 
-// const allHeros = marvel_heros.concat(dc_heros)
+// const allHeros = marvel_heros.concat(dc_heros) --concat retuen array
 // console.log(allHeros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros] //spread operator
@@ -15,13 +15,13 @@ const all_new_heros = [...marvel_heros, ...dc_heros] //spread operator
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
-const real_another_array = another_array.flat(Infinity )
+const real_another_array = another_array.flat(Infinity)//depth---//convert to 1d
 console.log(real_another_array);
 
 
 //most time used in data scraping 
 console.log(Array.isArray("Hitesh"))
-console.log(Array.from("Hitesh"))
+console.log(Array.from("Hitesh"))--//convert into array
 console.log(Array.from({name: "hitesh"})) // interesting if he cant understand then it return [] empty array
 
 let score1 = 100
