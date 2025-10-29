@@ -18,6 +18,7 @@ for (const key in myObject) {
     //console.log(`${key} shortcut is for ${myObject[key]}`); // Both
 }
 
+
 //For in loop on array
 
 const programming = ["js", "rb", "py", "java", "cpp"]

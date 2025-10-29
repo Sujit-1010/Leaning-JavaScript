@@ -47,7 +47,7 @@ const chai =  () => {
 
 
 // but to return object we need to bind it in curly braces 
-//in simple in curly braces we write return and in round braces we dont write curly braces 
+//in simple in curly braces we write return and in round braces we dont write return statement
 
 const addTwo = (num1, num2) => ({username: "hitesh"})
 

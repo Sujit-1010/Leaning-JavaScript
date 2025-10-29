@@ -14,8 +14,10 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach(printMe) === Using our own created func
 
+
+
 // coding.forEach( (item, index, total_arr)=> {
-//     console.log(item, index,  total_arr);
+//     console.log(item, index,  total_arr);== js 0 ["js", "ruby", "java", "python", "cpp"] ...
 // } )
 
 const myCoding = [

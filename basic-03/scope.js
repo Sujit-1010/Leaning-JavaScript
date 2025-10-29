@@ -7,13 +7,13 @@ if (true) {
     
 }
 
-
-
 // console.log(a);
 // console.log(b);
 // console.log(c);
 
 
+//Nested Scope
+    
 function one(){
     const username = "hitesh"
 

@@ -1,4 +1,5 @@
-// Immediately Invoked Function Expressions (IIFE)
+// Immediately Invoked Function Expressions (IIFE)==> function which immediately execute also sometimes global scope pollution make problem to remove this we use iife
+
 
 // to avoid global pollution we use fe or to remove pollution 
 
@@ -7,7 +8,7 @@
     console.log(`DB CONNECTED`);
 })();
 
-//if we cant end  above func with semi colon then below func give error  
+//if we cant end above func with semi colon then below func give error  
 // (function chai(){
 //     // named IIFE
 //     console.log(`DB CONNECTED`);
