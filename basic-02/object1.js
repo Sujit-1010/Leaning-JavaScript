@@ -9,7 +9,7 @@ const mySym = Symbol("key1")
 
 const JsUser = {
     name: "Hitesh",
-    "full_name": "Hitesh Choudhary",
+    "full name": "Hitesh Choudhary",
     [mySym]: "mykey1", // for symbol we have to declare key in []
     age: 18,
     location: "Jaipur",
@@ -20,7 +20,7 @@ const JsUser = {
 
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
-// console.log(JsUser.full_name)-- cant access bevause key is in string so we can only access it by []
+//console.log(JsUser["full name"]) //-- cant access bevause key is in string so we can only access it by []
 // console.log(JsUser["full name"])--right way
 // console.log(JsUser[mySym])
 

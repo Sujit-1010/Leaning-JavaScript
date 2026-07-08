@@ -67,13 +67,9 @@ const course = {
 // course.courseInstructor --to much time taking 
 
 //const {courseInstructor} = course 
-const {courseInstructor: instructor} = course // our own name ----Destructuring of object
-
-
 // console.log(courseInstructor);
+const {courseInstructor: instructor} = course // our own name ----Destructuring of object
 console.log(instructor);
-
-
 
 
 // API in JSON file 
