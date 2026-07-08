@@ -18,13 +18,23 @@ let state;
 // bigint
 // string => ""
 // boolean => true/false
-// null => standalone value
-// undefined => 
-// symbol => unique (used in react)
+// null => standalone value (developer intentionally gives empty value)
+// undefined => Variable created but value not assigned 
+// symbol => uniqueness (used in react)
 
 
 // object
 
 console.log(typeof undefined); // undefined
 
-console.log(typeof null); // object
+console.log(typeof null); // object (It is a historical JavaScript bug kept for compatibility.)
+
+
+// Symbol
+
+let id1 = Symbol("123");
+
+let id2 = Symbol("123");
+
+
+console.log(id1 === id2); // false

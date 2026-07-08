@@ -30,6 +30,12 @@ let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
+console.log("10" - 5); // 5
+console.log(5 == "5"); // true (== (loose equality)
+console.log(5 === "5"); // false (== strict equality)
+
+
+
 // *********************** Operations ***********************
 
 let value = 3
