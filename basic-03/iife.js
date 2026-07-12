@@ -1,7 +1,7 @@
 // Immediately Invoked Function Expressions (IIFE)==> function which immediately execute also sometimes global scope pollution make problem to remove this we use iife
 
 
-// to avoid global pollution we use fe or to remove pollution 
+// to avoid global pollution we use iife or to remove pollution 
 
 (function chai(){
     // named IIFE

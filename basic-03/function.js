@@ -8,6 +8,7 @@ function sayMyName(){
     console.log("H");
 }
 
+
 //sayMyName --reference
 // sayMyName() --execution
 
@@ -16,32 +17,32 @@ function sayMyName(){
 //     console.log(number1 + number2);
 // }
 
-function addTwoNumbers(number1, number2){
+// function addTwoNumbers(number1, number2){
 
-    // let result = number1 + number2
-    // return result
-    return number1 + number2
-}
+//     // let result = number1 + number2
+//     // return result
+//     return number1 + number2
+// }
 
-const result = addTwoNumbers(3, 5)
+// const result = addTwoNumbers(3, 5)
 
-// console.log("Result: ", result);
-
-
-function loginUserMessage(username = "sam"){
-    if(!username){
-        console.log("PLease enter a username");
-        return
-    }
-    return `${username} just logged in`
-}
-
-// console.log(loginUserMessage("hitesh"))
-console.log(loginUserMessage()) // undefined just logged in 
-// console.log(loginUserMessage("hitesh"))
+// // console.log("Result: ", result);
 
 
-// ++++++++++++++++++ Lec -2 ++++++++++++++++++++++++++++++
+// function loginUserMessage(username = "sam"){
+//     if(!username){
+//         console.log("PLease enter a username");
+//         return
+//     }
+//     return `${username} just logged in`
+// }
+
+// // console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage()) // undefined just logged in 
+// // console.log(loginUserMessage("hitesh"))
+
+
+// // ++++++++++++++++++ Lec -2 ++++++++++++++++++++++++++++++
 
 // when we dont know how manyh parameter we need 
 

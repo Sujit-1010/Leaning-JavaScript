@@ -13,11 +13,11 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage()
 
-// console.log(this);
+// console.log(this); -- {}
 
 // function chai(){
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username); -- undefined cant use in function only in object
 // }
 
 // chai()
@@ -31,7 +31,7 @@ const user = {
 // Arrow Function
 const chai =  () => {
     let username = "hitesh"
-    console.log(this);
+    console.log(this); //-- {}
 }
 
 
