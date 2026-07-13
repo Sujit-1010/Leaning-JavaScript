@@ -28,7 +28,7 @@ for (const key in programming) {
 }
 
 for (const key in programming) {
-    //console.log(programming[key]); ==== values 
+    //console.log(programming[key]); ==== values "js"...
 }
 
 // const map = new Map()
@@ -41,4 +41,4 @@ for (const key in programming) {
 //     console.log(key);
 // }
 
-//=== on hap we cant use for in loop 
+//-- on hap we cant use for in loop 

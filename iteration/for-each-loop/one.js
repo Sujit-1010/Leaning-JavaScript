@@ -12,7 +12,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
 // }
 
-// coding.forEach(printMe) === Using our own created func
+// coding.forEach(printMe) === Using our own created func give only reference
 
 
 

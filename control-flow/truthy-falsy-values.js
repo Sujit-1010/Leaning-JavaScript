@@ -17,6 +17,8 @@ if (userEmail) {
 //     console.log("Array is empty");
 // }
 
+// false == 0 -> True
+
 const emptyObj = {}
 
 if (Object.keys(emptyObj).length === 0) {
